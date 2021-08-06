@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,500;1,600;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #c71d20;
+  font-size: 20px;
+  background:#111;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #c71d20;
+  padding-top: 3%;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.game, form{
+background:#fff;
+background-blend-mode: screen;
+padding: 1.8rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.game > div {
+  padding: 0.5rem;
+}
+
+.form input,
+.form label{
+margin-top: 1rem;
+}
+
+
+.form input{
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.4rem;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: #c71d20;  
+  color: #fff;
+  padding: 0.4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 1rem;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+#btnVerifica{
+ background-color: #fff;
+ color:#c71d20 ;
+  
+}

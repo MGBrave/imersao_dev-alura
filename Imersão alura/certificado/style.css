@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;0,900;1,900&display=swap');
+
+body {
+	padding: 15px;
+	font-family: 'Poppins', sans-serif;
+	background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);}
+	
+
+section {
+
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	background-color: #fff;
+	border-radius: 10px;
+	max-width: 500px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+section h1 {
+	font-size: 18px;
+	text-align: center;
+}
+h2{
+	font-size: 16px;
+}
+
+header {
+	border-radius: 10px;
+	width: 100%;
+	height: 80px;
+	background-image: url('https://blog.sympla.com.br/wp-content/uploads/2013/08/Como-a-tecnologia-est%C3%A1-revolucionando-a-produ%C3%A7%C3%A3o-de-eventos.png');
+	background-size:contain;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	transform: translateY(-50%);
+	display: block;
+	border: 10px solid #fff;
+}
+
+div {
+	margin-top: 15px;
+	background-color: #eee;
+	border-radius: 15px;
+	padding: 15px;
+	text-align: center;
+}
+
+div ol li {
+	text-align: left;
+	margin-bottom: 6px;
+	font-size: 14px;
+	
+}
